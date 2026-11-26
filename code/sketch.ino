@@ -1,29 +1,29 @@
 void setup() {
-  // put your setup code here, to run once:
+  // INITIALIZE THE PINS
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(11, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  //GREEN LED (PIN 13)
   digitalWrite(13, HIGH);
   delay(300);
 
   digitalWrite(13, LOW);
   delay(50);
-////////
+
+  //RED LED (PIN 12)
   digitalWrite(12, HIGH);
   delay(300);
 
   digitalWrite(12, LOW);
   delay(50);
-////////
+
+  //BLUE LED (PIN 11)
   digitalWrite(11, HIGH);
   delay(300);
 
   digitalWrite(11, LOW);
   delay(50);
-
-
 }
